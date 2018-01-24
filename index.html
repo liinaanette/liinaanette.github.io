@@ -6,12 +6,13 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<style>
-			.container-1 {
+			#about {
 				width: 100%;
 				height: 1000px;
-				background-image: url("https://wallpaperscraft.com/image/starry_sky_trees_stars_night_118267_1920x1080.jpg");
+				background-image: url("images/frame1.jpg");
 				background-fit: cover;
 				overflow: hidden;
+				background-position: center;
 			}
 
 			.container-2 {
@@ -20,6 +21,15 @@
 				background-image: url("https://wallpaperscraft.com/image/imac_apple_computer_table_cup_notebook_109176_1920x1080.jpg");
 				background-fit: cover;
 				overflow: hidden;
+			}
+
+			#headshot-description {
+				display:inline-block;
+				float:left;
+				background-color: white;
+				max-width:900px;
+				height:60%;
+				margin: 150px 0 0 40px;
 			}
 		</style>
 	</head>
@@ -38,8 +48,13 @@
 			</ul>
 		</nav>
 
-		<div id="about" class="container-1 smooth">
-			<img src="images/liina.jpg" alt="Headshot photo" style="max-width:80%;height:auto;float:right;margin:150px 40px 40px;" class="rounded img-responsive">
+		<div id="about" class="container-fluid smooth">
+			<div class="row">
+				<div id="headshot-description" class="container col-md-8">
+				</div>
+				<img src="images/liina.jpg" alt="Headshot photo"
+				style="max-width:70%;height:auto;float:right;margin:150px 40px 40px;display:inline-block" class="rounded img-responsive">
+		</div>
 		</div>
 
 		<div style="height:100px;color:#fcf9f9" class="container-fluid">
