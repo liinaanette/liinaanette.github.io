@@ -2,54 +2,50 @@
 <html>
 	<head>
 		<title>My Portfolio</title>
-		    <!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<style>
+			.container-1 {
+				width: 100%;
+				height: 1000px;
+				background-image: url("https://wallpaperscraft.com/image/starry_sky_trees_stars_night_118267_1920x1080.jpg");
+				background-fit: cover;
+				overflow: hidden;
+			}
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css">
+			.container-2 {
+				width: 100%;
+				height: 1000px;
+				background-image: url("https://wallpaperscraft.com/image/imac_apple_computer_table_cup_notebook_109176_1920x1080.jpg");
+				background-fit: cover;
+				overflow: hidden;
+			}
+		</style>
+	</head>
+	<body>
+		<nav class="navbar fixed-top navbar-expand-sm bg-light navbar-light">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="#about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#portfolio">Portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">Contact</a>
+				</li>
+			</ul>
+		</nav>
 
-    <!-- Latest compiled and minified JavaScript -->
+		<div id="about" class="container-1 smooth">
+		</div>
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<style>
-	.container-1 {
-		width: 100%;
-		height: 1000px;
-		background-image: url("https://wallpaperscraft.com/image/starry_sky_trees_stars_night_118267_1920x1080.jpg");
-		background-fit: cover;
-		overflow: hidden;
-	}
+		<div style="height:100px;color:#fcf9f9" class="container-fluid">
 
-	.container-2 {
-		width: 100%;
-		height: 1000px;
-		background-image: url("https://wallpaperscraft.com/image/imac_apple_computer_table_cup_notebook_109176_1920x1080.jpg");
-		background-fit: cover;
-		overflow: hidden;
-	}
-</style>
-</head>
-<body>
-	<nav class="navbar fixed-top navbar-expand-sm bg-light navbar-light">
-		<ul class="navbar-nav">
-			<li class="nav-item active">
-				<a class="nav-link" href="#about">About</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#portfolio">Portfolio</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#contact">Contact</a>
-			</li>
-		</ul>
-	</nav>
+		</div>
 
-	<div id="about" class="container-1 smooth">
-	</div>
-
-	<div style="height:100px;color:#fcf9f9" class="container-fluid">
-
-	</div>
-
-	<div id="portfolio" class="container-2 smooth">
-	</div>
-</body>
+		<div id="portfolio" class="container-2 smooth">
+		</div>
+	</body>
 </html>
