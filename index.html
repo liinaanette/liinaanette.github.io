@@ -1,100 +1,103 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<!-- Title and favicon -->
-		<title>My Portfolio</title>
-		<link rel="icon" href="images/favicon.ico">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<!-- Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+	<!-- Title and favicon -->
+	<title>My Portfolio</title>
+	<link rel="icon" href="images/favicon.ico">
 
-		<!-- bootstrap 4, js and jquery -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
 
-		<!-- css stylesheets -->
-		<link rel="stylesheet" media="(max-width:600px)" href="css/style-2-small.css">
-		<link rel="stylesheet" media="(min-width:601px)" href="css/style-2-large.css">
+	<!-- bootstrap 4, js and jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
 
-		<style>
-			#about {
-				background-image: url("images/frame1.jpg")
-			}
+	<!-- css stylesheets -->
+	<link rel="stylesheet" media="(max-width:600px)" href="css/style-2-small.css">
+	<link rel="stylesheet" media="(min-width:601px)" href="css/style-2-large.css">
 
-			#portfolio {
-				background-image: url("images/frame2.jpg")
-			}
+	<style>
+		#about {
+			background-image: url("images/frame1.jpg")
+		}
 
-			#contact {
-				background-image: url("images/frame3.jpg")
-			}
-		</style>
+		#portfolio {
+			background-image: url("images/frame2.jpg")
+		}
 
-	</head>
-	<body>
+		#contact {
+			background-image: url("images/frame3.jpg")
+		}
+	</style>
 
-			<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-	  <div class="collapse navbar-collapse" id="navbarToggler">
-	    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-	      <li class="nav-item active">
-	        <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#portfolio">Portfolio</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#contact">Contact</a>
-	      </li>
-	    </ul>
-	  </div>
+</head>
+
+<body>
+
+	<nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarToggler">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="#about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#portfolio">Portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">Contact</a>
+				</li>
+			</ul>
+		</div>
 	</nav>
 
-		<div id="about" class="container-fluid smooth">
-				<div id="headshot-description" class="container">
-					<p style="font-family:Raleway,cursive;font-size:80px;margin-top:20px;" class="text-center">Liina Anette Pärtel</p>
+	<div id="about" class="container-fluid smooth">
+		<div id="headshot-description" class="container">
+			<p style="font-family:Raleway,cursive;font-size:160%;margin-top:10%;" class="text-center">Liina Anette Pärtel</p>
 
-						<div id="overview" class="text-center row">
-							<dt class="col-md-5">Age</dt>
-							<dd class="col-md-6">20</dd>
-							<dt class="col-md-5">Occupation</dt>
-							<dd class="col-md-6">CS student, University of Tartu</dd>
-							<dt class="col-md-5">Skills</dt>
-							<dd class="col-md-6">Java, Python, HTML/CSS</dd>
-							<p style="margin-top:30px">Siia veel palun mingi tekst: kes ma olen, mida ma teinud olen ja mida ma oskan!!!</p>
-						</div>
-
-				</div class="container-fluid">
-					<img src="images/liina.jpg" alt="Headshot photo" class="rounded img-responsive float-right">
-				</div>
+			<div id="overview" class="text-center row">
+				<dt class="col-md-5">Age</dt>
+				<dd class="col-md-6">20</dd>
+				<dt class="col-md-5">Occupation</dt>
+				<dd class="col-md-6">CS student, University of Tartu</dd>
+				<dt class="col-md-5">Skills</dt>
+				<dd class="col-md-6">Java, Python, HTML/CSS</dd>
+				<p style="margin-top:30px">Siia veel palun mingi tekst: kes ma olen, mida ma teinud olen ja mida ma oskan!!!</p>
 			</div>
 
-		<div style="height:100px;color:#fcf9f9" class="container-fluid">
+		</div class="container-fluid">
+		<img src="images/liina.jpg" alt="Headshot photo" class="img-responsive float-right">
+	</div>
+	</div>
 
-		</div>
+	<div style="height:100px;color:#fcf9f9" class="container-fluid">
 
-		<div id="portfolio" class="container-fluid smooth">
-        <img src="http://placehold.it/450x250" class="img-responsive col-xs-4" />
-				<img src="http://placehold.it/450x250" class="img-responsive col-xs-4" />
-				<img src="http://placehold.it/450x250" class="img-responsive col-xs-4" />
-				<img src="http://placehold.it/450x250" class="img-responsive col-xs-4" />
-				<img src="http://placehold.it/450x250" class="img-responsive col-xs-4" />
-				<img src="http://placehold.it/450x250" class="img-responsive col-xs-4" />
-		</div>
+	</div>
 
-		<div style="height:100px;color:#fcf9f9" class="container-fluid">
+	<div id="portfolio" class="container-fluid smooth">
+		<img src="http://placehold.it/450x250" class="img-responsive col-xs-4" />
+		<img src="http://placehold.it/450x250" class="img-responsive col-xs-4" />
+		<img src="http://placehold.it/450x250" class="img-responsive col-xs-4" />
+		<img src="http://placehold.it/450x250" class="img-responsive col-xs-4" />
+		<img src="http://placehold.it/450x250" class="img-responsive col-xs-4" />
+		<img src="http://placehold.it/450x250" class="img-responsive col-xs-4" />
+	</div>
 
-		</div>
+	<div style="height:100px;color:#fcf9f9" class="container-fluid">
 
-		<div id="contact" class="container-fluid smooth">
+	</div>
 
-		</div>
-	</body>
+	<div id="contact" class="container-fluid smooth">
+
+	</div>
+</body>
+
 </html>
