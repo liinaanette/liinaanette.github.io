@@ -21,9 +21,18 @@
 			#about img {
 				float:right;
 				display:inline-block;
-				max-width:70%;
+				max-width:50%;
 				height:auto;
 				margin:150px 40px;
+			}
+
+			#headshot-description {
+				display:inline-block;
+				background-color: white;
+				max-width:60%;
+				height:60%;
+				margin: 150px 0 0 40px;
+				border-radius:5px
 			}
 
 			#portfolio {
@@ -32,15 +41,6 @@
 				background-image: url("images/frame2.jpg");
 				background-fit: cover;
 				overflow: hidden;
-			}
-
-			#headshot-description {
-				display:inline-block;
-				background-color: white;
-				max-width:70%;
-				height:60%;
-				margin: 150px 0 0 40px;
-				border-radius:5px
 			}
 
 			.col-xs-4{
@@ -75,22 +75,24 @@
 		</nav>
 
 		<div id="about" class="container-fluid smooth">
-				<div id="headshot-description" class="container">
+			<div class="row">
+				<div id="headshot-description" class="col-sm-6 offset-sm-4 container">
 					<p style="font-family:Raleway,cursive;font-size:80px;margin-top:20px;" class="text-center">Liina Anette Pärtel</p>
-					<div class="container">
-		<div id="overview" class="text-center row">
-			<dt class="col-md-5">Age</dt>
-			<dd class="col-md-6">20</dd>
-			<dt class="col-md-5">Occupation</dt>
-			<dd class="col-md-6">CS student, University of Tartu</dd>
-			<dt class="col-md-5">Skills</dt>
-			<dd class="col-md-6">Java, Python, HTML/CSS</dd>
-			<p style="margin-top:30px">Siia veel palun mingi tekst: kes ma olen, mida ma teinud olen ja mida ma oskan!!!</p>
-		</div>
-	</div>
+
+						<div id="overview" class="text-center row">
+							<dt class="col-md-5">Age</dt>
+							<dd class="col-md-6">20</dd>
+							<dt class="col-md-5">Occupation</dt>
+							<dd class="col-md-6">CS student, University of Tartu</dd>
+							<dt class="col-md-5">Skills</dt>
+							<dd class="col-md-6">Java, Python, HTML/CSS</dd>
+							<p style="margin-top:30px">Siia veel palun mingi tekst: kes ma olen, mida ma teinud olen ja mida ma oskan!!!</p>
+						</div>
+
 				</div>
-				<img src="images/liina.jpg" alt="Headshot photo" class="rounded img-responsive">
-		</div>
+					<img src="images/liina.jpg" alt="Headshot photo" class="col-sm-2 rounded img-responsive float-right">
+				</div>
+			</div>
 
 		<div style="height:100px;color:#fcf9f9" class="container-fluid">
 
