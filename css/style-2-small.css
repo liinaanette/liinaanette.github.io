@@ -13,6 +13,11 @@
   display: block;
 }
 
+#name {
+  margin-top: 5%;
+  font-size: 200%
+}
+
 #headshot-description {
   display:inline-block;
   background-color: #f1f2f6;
