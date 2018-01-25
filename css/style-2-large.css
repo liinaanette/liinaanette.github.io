@@ -10,7 +10,7 @@
   float:right;
   display:inline-block;
   max-width:30%;
-  height:auto;
+  max-height:60%;
   margin:150px 20px;
 }
 

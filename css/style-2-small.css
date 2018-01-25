@@ -4,11 +4,13 @@
 }
 
 #about img {
-  width: 200px;
-  height: 250px;
+  width: 30%;
+  height: auto;
   border-radius: 100%;
   object-position:top;
   object-fit:cover;
+  margin: 10% auto;
+  display: block;
 }
 
 #headshot-description {
