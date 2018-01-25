@@ -1,0 +1,46 @@
+#about {
+  width: 100%;
+  height: 100%;
+  background-image: url("liinaanette.github.io/images/frame1.jpg");
+  background-fit: cover;
+  overflow: hidden;
+  background-position: center;
+}
+
+#about img {
+  float:right;
+  display:inline-block;
+  max-width:30%;
+  height:auto;
+  margin:150px 20px;
+}
+
+#headshot-description {
+  display:inline-block;
+  background-color: white;
+  max-width:60%;
+  height:60%;
+  margin: 150px 0 0 40px;
+  border-radius:5px
+}
+
+#portfolio {
+  width: 100%;
+  height: 1000px;
+  background-image: url("images/frame2.jpg");
+  background-fit: cover;
+  overflow: hidden;
+}
+
+.col-xs-4{
+  display:inline-block;
+  margin: 50px 0 0 20px;
+}
+
+#contact {
+  width:100%;
+  height:1000px;
+  background-image: url("images/frame3.jpg");
+  background-fit: cover;
+  overflow: hidden;
+}

@@ -1,79 +1,61 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Title and favicon -->
+		<title>My Portfolio</title>
 		<link rel="icon" href="images/favicon.ico">
+
+		<!-- Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
-		<title>My Portfolio</title>
+
+		<!-- bootstrap 4, js and jquery -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- css stylesheets -->
+		<link rel="stylesheet" media="(max-width:600px)" href="css/style-2-small.css">
+		<link rel="stylesheet" media="(min-width:601px)" href="css/style-2-large.css">
+
 		<style>
 			#about {
-				width: 100%;
-				height: 1000px;
-				background-image: url("images/frame1.jpg");
-				background-fit: cover;
-				overflow: hidden;
-				background-position: center;
-			}
-
-			#about img {
-				float:right;
-				display:inline-block;
-				max-width:30%;
-				height:auto;
-				margin:150px 20px;
-			}
-
-			#headshot-description {
-				display:inline-block;
-				background-color: white;
-				max-width:60%;
-				height:60%;
-				margin: 150px 0 0 40px;
-				border-radius:5px
+				background-image: url("images/frame1.jpg")
 			}
 
 			#portfolio {
-				width: 100%;
-				height: 1000px;
-				background-image: url("images/frame2.jpg");
-				background-fit: cover;
-				overflow: hidden;
-			}
-
-			.col-xs-4{
-				display:inline-block;
-				margin: 50px 0 0 20px;
+				background-image: url("images/frame2.jpg")
 			}
 
 			#contact {
-				width:100%;
-				height:1000px;
-				background-image: url("images/frame3.jpg");
-				background-fit: cover;
-				overflow: hidden;
+				background-image: url("images/frame3.jpg")
 			}
-
-
 		</style>
+
 	</head>
 	<body>
-		<nav class="navbar fixed-top navbar-expand-sm navbar-light" style="background-color:#dfdfdf">
-			<ul class="navbar-nav">
-				<li class="nav-item active">
-					<a class="nav-link" href="#about">About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#portfolio">Portfolio</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#contact">Contact</a>
-				</li>
-			</ul>
-		</nav>
+
+		<nav class="navbar navbar-toggleable navbar-light bg-faded">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
 		<div id="about" class="container-fluid smooth">
 				<div id="headshot-description" class="container">
