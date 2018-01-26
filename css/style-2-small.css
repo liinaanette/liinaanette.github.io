@@ -26,6 +26,11 @@
   border-radius:5px
 }
 
+.fa {
+  margin-top: 5%;
+  font-size: 200%;
+}
+
 #portfolio {
   width:100%;
   height:100%;

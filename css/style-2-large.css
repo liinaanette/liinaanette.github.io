@@ -28,6 +28,11 @@
   border-radius:5px
 }
 
+.fa {
+  margin-top: 10%;
+  font-size: 400%;
+}
+
 #portfolio {
   padding-bottom: 40px;
   width: 100%;
