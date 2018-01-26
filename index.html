@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<!-- css stylesheets -->
 	<link rel="stylesheet" media="(max-width:850px)" href="css/style-2-small.css">
@@ -34,10 +35,27 @@
 		#contact {
 			background-color: #EFEFEF;
 		}
+
 		#divider {
 			background-color: #ff3b3f;
-			height:10%;
+			height: 100px;
 		}
+
+		ul {
+    overflow: auto;
+}
+
+ul li {
+    list-style-type: none;
+    float: left;
+}
+
+.fa {
+	margin-top: 60px;
+	font-size: 50px;
+}
+
+
 	</style>
 
 </head>
@@ -57,7 +75,7 @@
 					<a class="nav-link" href="#portfolio">Portfolio</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#contact">Contact</a>
+					<a class="nav-link disabled" href="#">Contact</a>
 				</li>
 			</ul>
 		</div>
@@ -67,14 +85,18 @@
 		<div id="headshot-description" class="container">
 			<p id="name" style="font-family:Raleway,cursive" class="text-center">Liina Anette Pärtel</p>
 
-			<div id="overview" class="text-center row">
+			<div class="text-center row">
 				<dt class="col-md-5">Age</dt>
 				<dd class="col-md-6">20</dd>
 				<dt class="col-md-5">Occupation</dt>
 				<dd class="col-md-6">CS student, University of Tartu</dd>
 				<dt class="col-md-5">Skills</dt>
 				<dd class="col-md-6">Java, Python, HTML/CSS</dd>
-				<p style="margin-top:30px">Siia veel palun mingi tekst: kes ma olen, mida ma teinud olen ja mida ma oskan!!!</p>
+				<dt class="text-center col-md-12" style="margin-top:30px">Siia veel desc</p>
+				<ul class="text-center">
+					<dt><a href="http://linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
+					<dd><a href="http://github.com"><i class="fa fa-github"></i> </a></li>
+				</ul>
 			</div>
 
 		</div class="container-fluid">
@@ -96,10 +118,6 @@
 	</div>
 
 	<div id="divider" class="container-fluid">
-
-	</div>
-
-	<div id="contact" class="container-fluid smooth">
 
 	</div>
 </body>
