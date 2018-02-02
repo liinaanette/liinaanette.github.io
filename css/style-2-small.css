@@ -3,8 +3,7 @@
 }
 
 #about img {
-  visibility: hidden;
-  width:1%;
+  display:none;
 }
 
 #name {
