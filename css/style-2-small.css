@@ -39,6 +39,7 @@
 }
 
 #portfolio .col-xs-4 {
+  cursor:pointer;
   width:45%;
   margin-right: 2%;
   margin-left: 2%;
