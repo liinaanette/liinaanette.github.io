@@ -10,54 +10,21 @@
 
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
 
 	<!-- bootstrap 4, js and jquery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
-	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/5.0.8/css/font-awesome.min.css">-->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S"
 	    crossorigin="anonymous">
 
 	<!-- css stylesheets -->
-	<link rel="stylesheet" media="(max-width:850px)" href="css/style-2-small.css">
-	<link rel="stylesheet" media="(min-width:851px)" href="css/style-2-large.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" media="(max-width:999px)" href="css/style-2-small.css">
+	<link rel="stylesheet" media="(min-width:1000px)" href="css/style-2-large.css">
 
-	<style>
-		#about {
-			background-color: #EFEFEF;
-		}
-
-		#portfolio {
-			background-color: #EFEFEF;
-		}
-
-		#contact {
-			background-color: #EFEFEF;
-		}
-
-		#divider {
-			background-color: #ff3b3f;
-			height: 100px;
-			color: #ffffff;
-			text-transform: uppercase;
-			text-align: center;
-			font-size: 3em;
-			font-family: 'Raleway', sans-serif;
-			margin: auto 0 auto 0;
-		}
-
-		ul li {
-			list-style-type: none;
-		}
-
-		.icon {
-			font-size: 3em;
-			padding-top: 5%;
-		}
-	</style>
 
 </head>
 
@@ -83,67 +50,80 @@
 
 	<div id="about">
 		<div class="container">
-			<div id="headshot-description" class="container">
-				<p id="name" style="font-family:Raleway,cursive" class="text-center">Liina Anette Pärtel</p>
-
+			<div id="headshot-description">
+				<p id="name" class="text-center">Liina Anette Pärtel</p>
 				<div class="text-center row">
 					<dt class="col-md-5">Age</dt>
-					<dd class="col-md-6">20</dd>
+					<dd class="col-md-6">21</dd>
 					<dt class="col-md-5">Occupation</dt>
-					<dd class="col-md-6">CS student, University of Tartu</dd>
+					<dd class="col-md-6">Computer Science, University of Tartu</dd>
 					<dt class="col-md-5">Skills</dt>
-					<dd class="col-md-6">Java, Python, Javascript, CSS</dd>
-					<dt class="text-center col-md-12" style="margin-top:30px">An aspiring young developer, with interests both in software engineering and UI design. I am learning web development
+					<dd class="col-md-6">Java, PHP, Javascript, CSS3, HTML5</dd>
+					<dt id="desc" class="text-center col-md-12">An aspiring young developer, with interests both in software engineering and UI design. I am learning web development
 						and web design on my own and have already done projects, that include work with APIs and Javascript frameworks. I have
 						been part of a software engineering project with two other students. Scroll further to see my projects. You can also
-						download my resume and visit my LinkedIn, Github and Codepen pages here: </p>
-						<dd class="col-3 icon">
-							<a href="https://www.dropbox.com/s/j4ce2sr23m8eqke/LiinaAnetteP%C3%A4rtelResume.docx?dl=0">
-								<i class="far fa-address-card"></i>
-							</a>
-						</dd>
-						<dd class="col-3 icon">
-							<a href="http://www.linkedin.com/in/liina-anette-pärtel">
-								<i class="fab fa-linkedin"></i>
-							</a>
-						</dd>
-						<dd class="col-3 icon">
-							<a href="https://github.com/liinaanette">
-								<i class="fab fa-github"></i>
-							</a>
-						</dd>
-						<dd class="col-3 icon">
-							<a href="https://codepen.io/memphei">
-								<i class="fab fa-codepen"></i>
-							</a>
-						</dd>
+						download my resume and visit my LinkedIn, Github and Codepen pages here:
+					</dt>
 
+					<dd class="col-md-3 col-3">
+						<a href="https://www.dropbox.com/s/j4ce2sr23m8eqke/LiinaAnetteP%C3%A4rtelResume.docx?dl=0" class="icon">
+							<i class="far fa-address-card"></i>
+						</a>
+						<p>Resume</p>
+					</dd>
+
+					<dd class="col-md-3 col-3">
+						<a href="http://www.linkedin.com/in/liina-anette-pärtel" class="icon">
+							<i class="fab fa-linkedin"></i>
+						</a>
+						<p>LinkedIn</p>
+					</dd>
+
+					<dd class="col-md-3 col-3">
+						<a href="https://github.com/liinaanette" class="icon">
+							<i class="fab fa-github"></i>
+						</a>
+						<p>Github</p>
+					</dd>
+
+					<dd class="col-md-3 col-3">
+						<a href="https://codepen.io/memphei" class="icon">
+							<i class="fab fa-codepen"></i>
+						</a>
+						<p>Codepen</p>
+					</dd>
 				</div>
-
-			</div class="container-fluid">
+			</div>
 			<img src="images/liina.jpg" alt="Headshot photo" class="img-responsive">
 		</div>
 	</div>
 
-	<div id="divider" class="container-fluid">
+	<div class="divider" class="container-fluid">
 		Portfolio
-
-		<p style="font-size:15px;">Click on the project to see more</p>
+		<p id="help">Click on the project to see more</p>
 	</div>
 
-	<div id="portfolio" class="container-fluid smooth">
-		<img src="images/imdb.jpg" onclick='window.open("https://codepen.io/memphei/full/wyBYwB/");' class="img-responsive col-xs-6"
-		/>
-		<img src="images/weather.jpg" onclick='window.open("https://codepen.io/memphei/full/oEgbWq/");' class="img-responsive col-xs-6"
-		/>
-		<img src="images/wiki.jpg" onclick='window.open("https://codepen.io/memphei/full/JpoLBX/");' class="img-responsive col-xs-6"
-		/>
+	<div id="portfolio">
+		<div class="row text-center">
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<img src="images/imdb.jpg" onclick='window.open("https://codepen.io/memphei/full/wyBYwB/");' class="project center-block"
+				/>
+			</div>
+
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<img src="images/weather.jpg" onclick='window.open("https://codepen.io/memphei/full/oEgbWq/");' class="project" />
+			</div>
+
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<img src="images/wiki.jpg" onclick='window.open("https://codepen.io/memphei/full/JpoLBX/");' class="project" />
+			</div>
+		</div>
 	</div>
 
-	<div id="divider" class="container-fluid">
+	<div class="divider" class="container-fluid">
 
 	</div>
-	</div>
+
 </body>
 
 </html>
