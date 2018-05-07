@@ -36,7 +36,8 @@ body {
 }
 
 #portfolio {
-    height: 80vh;
+    min-height: 80vh;
+    height: auto;
     padding: 5% 3% 5% 3%;
 }
 .project {
