@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>IMDB episode rating graph</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <head>
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+</head>
+
+<h1 id="caption" class="text-center">TV series episode ratings</h1>
+<div class="text-center">
+	<p style="font-family: Open Sans, Verdana;color: #4b545f;">Write the name of your favorite tv series and press ENTER</p>
+	<input onClick="this.select();" id="Title" type="text" class="ghost-input" value="Game of Thrones">
+</div>
+
+<div class="row">
+	<canvas class="col-md-9" id="myChart"></canvas>
+	<div class="col-lg-3">
+		<h1 id="seriesRatingTitle"></h1>
+		<p id="seriesRating"></p>
+		<div id="topTen">
+		</div>
+	</div>
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

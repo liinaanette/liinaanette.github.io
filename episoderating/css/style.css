@@ -1,0 +1,48 @@
+
+#caption {
+	font-family: 'Playfair Display', serif;
+	padding-top: 5%;
+	font-size: 400%;
+}
+#topTenTitle {
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+}
+
+#seriesRatingTitle {
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+}
+
+#seriesRating {
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	font-size: 200%;
+}
+
+button {
+	padding-left: 4%;
+}
+
+.row {
+	padding: 3%;
+}
+.ghost-input {
+	font-size: 25px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	outline: none;
+	width: 100%;
+	max-width: 600px;
+	color: #4b545f;
+	background: #fff;
+	font-family: Open Sans, Verdana;
+	text-align: center;
+	padding: 10px 15px;
+	margin: 30px 0px;
+}
+
+li {
+	padding:1%;
+	font-family: Open Sans, Verdana;
+}
